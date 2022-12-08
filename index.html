@@ -3,6 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta content="楷文的個人網站" name="description" />
+        <meta content="楷文, Delocxi, 前端, 工程師, Engineer, RD, FrontEnd" name="keywords" />
+        <meta property="og:locale" content="zh_TW" />
+        <meta property="og:type" content="website" />
         <style>
             @import url("index.css");
         </style>
@@ -17,17 +21,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">首頁<span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#skill">技能</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">學歷</a>
+                  <a class="nav-link" href="#education">學歷</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">經歷</a>
+                  <a class="nav-link" href="#experience">經歷</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">專案</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">聯絡</a>
                 </li>
               </ul>
             </div>
@@ -44,7 +51,7 @@
                         <i class="fab fa-github" aria-hidden="true"></i>                    
                   </a>
               </div>
-                <a href="#About Me"> 
+                <a href="#about"> 
                     <button type="button" class="co-button">About me</button> 
                 </a>
             </div>
@@ -52,6 +59,7 @@
 
 
         <div class="container">
+            <!-- 關於我 -->
             <div class="row">
                 <div class="col">
                     <div class="spacer"></div>
@@ -60,21 +68,24 @@
                     </h2>
                     <div class="spacer"></div>
                     <div class="media">
-                        <img src="Avatar.jpg" class="mr-4 avatar">
+                        <img src="pic/Avatar.jpg" class="mr-4 avatar">
                         <div class="media-body">
-                          <h5 class="mt-0">大家好  我叫王楷文</h5>
-                          <p>大家好  我叫王楷文</p>
+                          <h5 class="mt-0">你好！我叫楷文！</h5>
+                          <p>284ru8</p>
                         </div>
                     </div>
+                    <div class="spacer"></div>
+                    <hr>
                 </div>
             </div>
+
+            <!-- 技能 -->
             <div class="row">
                 <div class="col">
-                    <div class="spacer"></div>
                     <h2 id="skill">
                         <i class="fas fa-wrench"></i><b> Skill</b>
                     </h2>
-                    <hr> 
+ 
                     <b>Front-End</b>
                     <ul>
                         <li>HTML</li>
@@ -90,9 +101,123 @@
                         <li>Git</li>
                         <li>VS Code</li>
                     </ul>
+                    <hr>
                 </div>
             </div>
+
+            <!-- 學歷 -->
+            <div class="row">
+                <div class="col">
+                    <h2 id="education">
+                        <i class="fas fa-user-graduate"></i><b> Education</b>
+                    </h2>
+                    <div class="box">
+                        <div class="timeline-item">
+                            <h3>實踐大學｜學士學位｜觀光管理學系</h3>
+                            <span>2015 ~ 2019</span>
+                            <p>旅遊模組</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>大理高中｜日間部</h3>
+                            <span>2012 ~ 2015</span>
+                            <p>普通科</p>
+                        </div>
+                    </div>
+                    <div class="spacer"></div>
+                    <hr>
+                </div>
+            </div>
+
+            <!-- 經驗 -->
+            <div class="row">
+                <div class="col">
+                    <h2 id="experience">
+                        <i class="fas fa-briefcase"></i></i><b> Experience</b>
+                    </h2>
+                    <div class="box">
+                        <div class="timeline-item">
+                            <h3>開始接觸Python</h3>
+                            <span>2022年10月</span>
+                            <p>大學科系與未來願景不符，希望能有一技之長</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>個人網站</h3>
+                            <span>2022年12月</span>
+                            <p>對網頁有興趣，並透過網路資源，製作屬於自己的個人網站</p>
+                        </div>
+                    </div>
+                    <div class="spacer"></div>
+                    <hr>
+                </div>
+            </div>
+
+            <!-- 專案 -->
+            <div class="row">
+                <div class="col">
+                    <div class="spacer"></div>
+                    <h2 id="project">
+                        <i class="far fa-lightbulb"></i>
+                        <b class="big-title">Project</b>
+                    </h2>
+                    <div class="sm-spacer"></div>
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col mb-4">
+                          <div class="card">
+                            <img src="pic/python.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Python</h5>
+                                <p class="card-text">利用下班的空閒時間練習</p>
+                                <a href="https://github.com/Delocxi/python-workspace" target="_blank">專案連結</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card">
+                                <img src="pic/website.jpg" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">個人網站</h5>
+                                    <p class="card-text">透過 HTML CSS Bootstrap4 來製作自己的個人網站</p>
+                                    <a href="https://github.com/Delocxi/delocxi.github.io" target="_blank">程式碼連結</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col contact">
+                    <div class="spacer"></div>
+                    <h2 id="contact">
+                        <i class="fas fa-envelope"></i>
+                        <b class="big-title">Contact</b>
+                    </h2>
+                    <div class="sm-spacer"></div>
+                    
+                    <p>有什麼問題歡迎透過下面的聯絡方式跟我聯絡！</p>
+                    <div class="info">
+                        <div class="email">
+                            <i class="fa fa-paper-plane"></i>
+                            <h4>Email:</h4>
+                            <p><a href="mailto:kai860819@icloud.com">kai860819@icloud.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer"></div>
         </div>
+
+        <!-- Footer-->
+  <footer class="page-footer font-small ">
+            <div class="footer-copyright text-center py-3">
+              © 2022 Copyright: delocxi
+            </div>
+        </footer>
+        <!-- Footer -->
+        </div>
+
+    
 
 
         <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
