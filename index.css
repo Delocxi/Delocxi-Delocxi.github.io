@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("SeaturtleAndMe.jpg");
+    height: calc(100% - 56px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+
+    .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    }
+
+    .co-button {
+    border: 1px;
+    border-radius: 60px;
+    outline: 0;
+    display: inline-block;
+    padding: 6px 25px;
+    color: rgb(255, 255, 255);
+    background: #03a4b3;
+    text-align: center;
+    cursor: pointer;
+    }
+
+    .hero-text button:hover {
+    background-color: #555;
+    color: white;
+    }
+
+    .social a {
+        font-size : 23px;
+        color:white;
+        margin-right:0.5rem;
+        margin-left:0.5rem;
+    }
+
+    .spacer{
+        height: 20px;
+    }
+
+    .avatar{
+        height: 150px;
+        width: 150px;
+    }
